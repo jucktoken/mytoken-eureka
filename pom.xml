@@ -50,7 +50,7 @@
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
-        <!-- Spring Boot Admin End -->
+        <!-- Spring Boot Admin End ff-->
     </dependencies>
 
     <build>
