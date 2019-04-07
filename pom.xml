@@ -52,6 +52,19 @@
         </dependency>
         <!-- Spring Boot Admin End ff-->
     </dependencies>
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>Nexus Repository</name>
+            <url>http://192.168.110.137:8081/repository/maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
